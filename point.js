@@ -40,7 +40,7 @@ switch (food) {
 
     case 2:
         console.log("Você escolheu Macarrão")
-        console.log(menu(macarrao,16));
+        console.log(menu(macarrao,8));
         console.log("Prato pronto, bom apetite!!!")
     break;
     case 3:

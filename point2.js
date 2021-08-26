@@ -86,12 +86,12 @@ function brigadeiro(tempo){
 console.log("********MENU MICROONDAS**********")
 console.log("****Escolha uma das opções*******")
 console.log("1 - Pipoca – 10 segundos (padrão)\n2 - Macarrão – 8 segundos (padrão)\n3 - Carne – 15 segundos (padrão)\n4 - Feijão – 12 segundos (padrão)\n5 - Brigadeiro – 8 segundos (padrão)")
-let food=4;
+let food=1;
 
 switch (food) {
     case 1:
         console.log("Você escolheu Pipoca")
-        console.log(pipoca(10));
+        console.log(pipoca(30));
         console.log("Prato pronto, bom apetite!!!")
         break;
 
